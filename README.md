@@ -1,24 +1,7 @@
-# README
+# Static pages with markdown templates
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Test project to create markdown templates (`html.md`). The static pages were created using [High Voltage](https://github.com/thoughtbot/high_voltage).
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+*  **master**: it fulfills the task using [Redcarpet](https://github.com/vmg/redcarpet). However, for some reason I couldn't use `erb` effectively in the markdown template;
+*  **tilt-solution**: it fulfills the task using [Tilt](https://github.com/rtomayko/tilt), that is also used as a workaround for the `erb` problem.
